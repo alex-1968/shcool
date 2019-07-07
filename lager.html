@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Material Design Bootstrap</title>
+	<link href="libs/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="libs/Magnific-Popup/magnific-popup.css" rel="stylesheet">
+	<link href="libs/youtuber/youtuber.css" rel="stylesheet">
+	<link href="libs/slick/slick.css" rel="stylesheet">
+	<link href="libs/scroll/css/style.css" rel="stylesheet">
+	<link href="libs/call-back/call_back.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="top_menu success-color-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-lg-4 col-md-2 col-sm-6 col-4">
+					<div class="top_menu_left d-flex align-items-center">
+						<a href="#" class="btn-social" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="#" class="btn-social" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="#" class="btn-social" target="_blank"><i class="fa fa-youtube"></i></a>
+						<a href="#" class="btn btn-success btn-rounded btn-sm" target="_blank">Блог <i class="fa fa-circle" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-8">
+					<div class="top_menu_right d-flex justify-content-end align-items-center">
+						<p class="phone"><i class="fa fa-phone mr-2" aria-hidden="true"></i> <span>+38</span>(073) 999 9999</p>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+					<div class="top_menu_right d-flex justify-content-end align-items-center">
+						<p class="adres"><i class="fa fa-map-marker mr-2" aria-hidden="true"></i> г. Киев ул. Евгения Сверстюка 11</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-light success-color">
+		<div class="container">
+			<a class="navbar-brand">
+				<img src="img/logo.svg" class="img-fluid" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto ">
+					<li class="nav-item">
+						<a class="nav-link" href="#short-course">Преимущества</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#program-lager">Программа занятий</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#price-camp">Наши цены</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Галерея</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contacts">Контакты</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<div class="translit d-flex align-items-center ml-1">
+						<a class="active" href="/">рус</a>
+						<span>|</span>
+						<a href="#">укр</a>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header style="background-image: url(img/header/header_07.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-md-7">
+					<div class="header_left d-flex flex-column justify-content-center">
+						<h1>Детский Лагерь «IT-Бум»</h1>
+						<p>Приглашаем школьников в IT-лагерь Main School! Предлагаем познавательное и увлекательное проведение времени с использованием современных технологий</p>
+						<h3 class="mt-5">Новая группа в Январе. Продолжается набор!<br><span>Успейте записаться. Количество мест
+								ограничено!</span></h3>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-5 d-xl-block d-lg-block d-md-block d-sm-none">
+					<div class="header_right d-flex flex-column justify-content-center">
+						<div class="title_form text-center">
+							<h4>Записаться в <span>Лагерь</span></h4>
+						</div>
+						<div class="wrap_form">
+							<form>
+								<div class="md-form form-sm">
+									<i class="fa fa-user-circle-o prefix"></i>
+									<input id="form_name" class="form-control" type="text" name="name" required>
+									<label for="form_name" data-error="wrong">Ваше имя</label>
+								</div>
+								<div class="md-form form-sm">
+									<i class="fa fa-envelope prefix"></i>
+									<input id="form_email" class="form-control" type="text" name="email" required>
+									<label for="form_email">Ваш e-mail</label>
+								</div>
+								<div class="md-form form-sm">
+									<i class="fa fa-phone prefix"></i>
+									<input id="form_phon" class="form-control" type="text" name="phone" required>
+									<label for="form_phon">Ваш телефон</label>
+								</div>
+								<div class="text-center mt-1-half">
+									<button type="submit" class="btn btn-rounded btn-info mb-2 waves-effect waves-light">Отправить <i class="fa fa-send ml-1"></i></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="block-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-4 col-md-12 col-sm-12 col-12">
+					<img src="img/section/it-school.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 col-12">
+					<h2>Ближайший <span>Мастер-класс</span></h2>
+					<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в
+						буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и
+						обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения
+						залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный
+						образ жизни.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="short-course" class="short-course">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Дневной Лагерь <span>Киев</span></h2>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="row">
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text trophy">По завершении каждой смены дети представляют свои работы, хвастаются своими достижениями
+								и получают сертификаты</p>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text eat">В расписании дня предусмотрено 3-х разовое питание, послеобеденный отдых, прогулки и игры на
+								свежем воздухе, полезные мастер-классы и обучающие игры</p>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text day">Каждый день в лагере не похож на предыдущий и спланирован так, что детям некогда скучать, но
+								всегда найдется минутка для отдыха</p>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text game">В распоряжении детей комната отдыха, учебные и компьютерные классы, высококвалифицированные
+								преподаватели</p>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text rocket">Каждая группа имеет свою тематику, которая раскрывается в течение всей смены</p>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+							<p class="text time">Продолжительность смены 4 дня с понедельника по субботу с 9:00 до 18:00</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="short-course-text">
+						<h3>Почему стоит выбрать Main Camp</h3>
+						<p>В нашем лагере ваш ребенок окажется в среде таких же подростков, в атмосфере взаимного уважения,
+							открытости и творческого поиска. Мы предлагаем посмотреть на привычные вещи под другим углом, почувствовать свою
+							креативность. Мы показываем детям, что им многое по силам, что огромный и разнообразный мир открыт и ждет новых
+							идей.</p>
+						<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в
+							буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и
+							обеспечивает ее всеми необходимыми правилами.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="program-lager" class="program-lager">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Программа <span>Занятий</span></h2>
+				</div>
+			</div>
+			<div class="row mt-4">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="program-lager-text">
+						<h3>Общая программа лагеря</h3>
+						<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в
+							буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и
+							обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения
+							залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный
+							образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир
+							грамматики. Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но
+							текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в
+							дорогу.</p>
+						<div class="video_vantage mt-4">
+							<img class="video_poster img-fluid" src="video/video-3.jpg" alt="">
+							<div class="wrap_play">
+								<a class="popup-youtube" href="https://www.youtube.com/watch?v=2ESE3_3hips">
+									<img src="img/play-button.png" alt="" class="video-play img-fluid" title="Для просмотра кликнуть">
+									<div class="iq-waves">
+										<div class="waves wave-1"></div>
+										<div class="waves wave-2"></div>
+										<div class="waves wave-3"></div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<ul class="program_list">
+						<li>
+							<span><i class="fa fa-laptop info-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Программирование</h3>
+								<p>Разработка собственных компьютерных игр, создание персонажа и игрового сюжета</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-picture-o default-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Видеоарт</h3>
+								<p>Работа с изображениями, озвучиванием, монтажем, созданием собственного мультфильма (6-9 лет)</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-video-camera primary-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Видеоблогинг</h3>
+								<p>Сьемка, монтаж, обработка, создание своего канала и его монетизация (10-14 лет)</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-flask secondary-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Интересная наука</h3>
+								<p>Окунитесь в загадочный мир физики, химии, благодаря нашим веселым опытам и экспериментам</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-language danger-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Игровой английский</h3>
+								<p>Разговорная практика, исчерпывающая повседневная и профессиональная лексика</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-code warning-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Разработка сайтов</h3>
+								<p>Научим делать актуальные на сегодня одностраничные сайты Landing page</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-microchip lime" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Робототехника</h3>
+								<p>Основы инженерии и современных технологий, создание собственного разумного робота</p>
+							</div>
+						</li>
+						<li>
+							<span><i class="fa fa-comments success-color" aria-hidden="true"></i></span>
+							<div class="program_list_text">
+								<h3>Журналистика и Storytelling</h3>
+								<p>Основы журналистики, копирайта и ораторского искусства, написание сценариев мультфильмов и роликов</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="price-camp" class="price-camp">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Направления <span>Лагеря</span></h2>
+					<p>Формирование групп происходит по возрасту, уровню подготовки и интересам ребенка.</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-wrap">
+					<div class="pricing-table">
+						<div class="heading info-color">
+							<p>с 9 до 15 лет</p>
+							<h3>Группа Boys&amp;Girls</h3>
+							<p class="price">2400 грн</p>
+						</div>
+						<div class="pricing-table-text">
+							<p>Акцент на IT-технологиях и современных программах через основы программирования:</p>
+							<ul>
+								<li><strong>Длительность:</strong> 4 дня</li>
+								<li>создание собственных игр</li>
+								<li>разработка сайта и WEB дизайн</li>
+								<li>безопасное использование интернета</li>
+								<li>интересная наука и инженерия (Craft)</li>
+								<li>робототехника</li>
+								<li>развитие памяти, внимания и логического мышления</li>
+								<li>работа с эмоциями, арт-терапия, сказка терапия</li>
+								<li>процесс снятия видео и продвижения его в соцсетях</li>
+							</ul>
+							<p><strong>По завершению:</strong> создаст свой первый сайт, узнает как создать YouTube канал и монетизировать
+								его, напишет свою первую игру. Научится ставить цели и идти к ним.</p>
+						</div>
+						<div class="wrap-btn">
+							<button type="button" class="btn btn-rounded btn-info mb-2 waves-effect waves-light" data-toggle="modal" data-target="#booking">Забронировать место</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-wrap">
+					<div class="pricing-table">
+						<div class="heading success-color">
+							<p>с 6 до 9 лет</p>
+							<h3>Младшая группа</h3>
+							<p class="price">2400 грн</p>
+						</div>
+						<div class="pricing-table-text">
+							<p>От сценариста к режиссеру мультика? Тогда приходите к нам на курс мультипликации:</p>
+							<ul>
+								<li><strong>Длительность:</strong> 4 дня</li>
+								<li>теоретические знания по мультипликации</li>
+								<li>сочинения героев и сюжета</li>
+								<li>создание героев и декораций</li>
+								<li>процесс снятия и озвучивания</li>
+								<li>монтаж финальной версии</li>
+								<li>А также - создание мобильных и компьютерных игр, интересная наука, робототехника, занятия с психологом</li>
+							</ul>
+							<p><strong>По завершению:</strong> собственный мультфильм! А также быстрое творческое развитие, новое хобби и
+								увлечения. Самостоятельность в принятии решения. Возможность определиться с будущей профессией.</p>
+						</div>
+						<div class="wrap-btn">
+							<button type="button" class="btn btn-rounded btn-success mb-2 waves-effect waves-light" data-toggle="modal" data-target="#booking">Забронировать место</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video-lager">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="video_vantage mt-5">
+						<img class="video_poster img-fluid" src="video/video-4.jpg" alt="">
+						<div class="wrap_play">
+							<a class="popup-youtube" href="https://www.youtube.com/watch?v=2ESE3_3hips">
+								<img src="img/play-button.png" alt="" class="video-play img-fluid" title="Для просмотра кликнуть">
+								<div class="iq-waves">
+									<div class="waves wave-1"></div>
+									<div class="waves wave-2"></div>
+									<div class="waves wave-3"></div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="video_text mt-5">
+						<h2>Летний лагерь <span>Киев</span></h2>
+						<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в
+							буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и
+							обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения
+							залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный
+							образ жизни. Однажды одна маленькая строчка рыбного текста по имени.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="enroll_camp">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12">
+					<div class="program_form">
+						<div class="title_form text-center">
+							<h4>Записаться в <span>Лагерь</span></h4>
+						</div>
+						<div class="wrap_form">
+							<form>
+								<div class="md-form form-sm">
+									<i class="fa fa-user-circle-o prefix"></i>
+									<input id="forma_name" class="form-control" type="text" name="name" required>
+									<label for="forma_name" data-error="wrong">Ваше имя</label>
+								</div>
+								<div class="md-form form-sm">
+									<i class="fa fa-envelope prefix"></i>
+									<input id="forma_email" class="form-control" type="text" name="email" required>
+									<label for="forma_email">Ваш e-mail</label>
+								</div>
+								<div class="md-form form-sm">
+									<i class="fa fa-phone prefix"></i>
+									<input id="forma_phon" class="form-control" type="text" name="phone" required>
+									<label for="forma_phon">Ваш телефон</label>
+								</div>
+								<div class="text-center mt-1-half">
+									<button type="submit" class="btn btn-rounded btn-info mb-2 waves-effect waves-light">Отправить <i class="fa fa-send ml-1"></i></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-7 col-md-12 col-sm-12 col-12">
+					<h2>Лагерь для <span>Детей</span></h2>
+					<ul class="mt-4">
+						<li><i class="fa fa-check" aria-hidden="true"></i>
+							<p>Скучать ребенку будет некогда. Если будет использоваться гаджет, то только с пользой</p>
+						</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>
+							<p>Раскроем невероятные способности современных технологий</p>
+						</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>
+							<p>Наши развлечения формируют базу для перспективных профессий и прибыльных хобби</p>
+						</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>
+							<p>Дети находятся при постоянной поддержке педагогов Main School</p>
+						</li>
+						<li><i class="fa fa-check" aria-hidden="true"></i>
+							<p>Обеспечиваем вкусными обедами и перекусами</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="lager_it">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Лагерь <span>IT</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mt-4">
+					<div class="card">
+						<div class="card-body">
+							<h3><span class="text-success">Летний</span> Лагерь Киев</h3>
+							<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты</p>
+							<a href="#" class="btn btn-sm btn-rounded btn-info mb-2 waves-effect waves-light">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mt-4">
+					<div class="card">
+						<div class="card-body">
+							<h3><span class="text-info">Зимний</span> Лагерь Киев</h3>
+							<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты</p>
+							<a href="#" class="btn btn-sm btn-rounded btn-info mb-2 waves-effect waves-light">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mt-4">
+					<div class="card">
+						<div class="card-body">
+							<h3><span class="text-secondary">Весенний</span> Лагерь Киев</h3>
+							<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты</p>
+							<a href="#" class="btn btn-sm btn-rounded btn-info mb-2 waves-effect waves-light">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mt-4">
+					<div class="card">
+						<div class="card-body">
+							<h3><span class="text-warning">Осенний</span> Лагерь Киев</h3>
+							<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты</p>
+							<a href="#" class="btn btn-sm btn-rounded btn-info mb-2 waves-effect waves-light">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="gallery" class="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2>Фото<span>Галерея</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="gallery-slide mt-4">
+						<div>
+							<img src="img/gallery/foto-004.jpg" class="img-fluid" alt="">
+						</div>
+						<div>
+							<img src="img/gallery/foto-002.jpg" class="img-fluid" alt="">
+						</div>
+						<div>
+							<img src="img/gallery/foto-003.jpg" class="img-fluid" alt="">
+						</div>
+						<div>
+							<img src="img/gallery/foto-001.jpg" class="img-fluid" alt="">
+						</div>
+						<div>
+							<img src="img/gallery/foto-005.jpg" class="img-fluid" alt="">
+						</div>
+						<div>
+							<img src="img/gallery/foto-006.jpg" class="img-fluid" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+					<div class="widget widget_text">
+						<img src="img/logo.svg" class="footer-logo" alt="logo">
+						<p>Современная школа нового формата с использованием современных IT-технологий в обучении. Все наши умения, опыт
+							и современные технологии соединились в Main School для гармоничного развития Вашего ребенка. Мы развиваем
+							таланты Ваших детей, давая им возможность овладеть самыми перспективными профессиями
+						</p>
+					</div>
+				</div>
+				<div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12">
+					<div class="widget widget_information">
+						<h3 class="widget-title"><span>Информация</span></h3>
+						<ul>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Лагерь</a></li>
+							<li><a href="#">Блог</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+					<div class="wrap_widget">
+						<div class="widget widget_information">
+							<h3 class="widget-title"><span>Контакты</span></h3>
+							<div class="address">
+								<span class="text"> г. Киев ул. Евгения Сверстюка 11</span>
+								<br><span class="maps" data-toggle="modal" data-target="#mapsModal">На карте <i class="fa fa-external-link ml-2"
+									 aria-hidden="true"></i></span>
+							</div>
+							<div class="phone">
+								<p class="phone"><span>+38</span> (073) 999 9999</p>
+							</div>
+							<div class="email mt-2">
+								<span class="email mr-1">E-mail:</span>
+								<span class="text">info@mainschool.com.ua</span>
+							</div>
+						</div>
+						<div class="widget widget_socials mt-3">
+							<div class="socials">
+								<a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+								<a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+								<a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+						<div class="copyright">© 2018 mainschool.com.ua - Программирование для детей в Киеве
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+						<div class="ws">Сайт розработан - <a href="http://site-pro.top/" target="_blank">Site-pro.top</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- booking -->
+	<div class="modal fade" id="booking" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header d-block pb-0">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Забронировать место</h4>
+				</div>
+				<div class="modal-body pt-0">
+					<form>
+						<div class="md-form form-sm">
+							<i class="fa fa-user-circle-o prefix"></i>
+							<input id="booking_name" class="form-control" type="text" name="name" required>
+							<label for="booking_name" data-error="wrong">Ваше имя</label>
+						</div>
+						<div class="md-form form-sm">
+							<i class="fa fa-envelope prefix"></i>
+							<input id="booking_email" class="form-control" type="text" name="email" required>
+							<label for="booking_email">Ваш e-mail</label>
+						</div>
+						<div class="md-form form-sm">
+							<i class="fa fa-phone prefix"></i>
+							<input id="booking_phon" class="form-control" type="text" name="phone" required>
+							<label for="booking_phon">Ваш телефон</label>
+						</div>
+						<div class="text-center mt-1-half">
+							<button type="submit" class="btn btn-rounded btn-info mb-2 waves-effect waves-light">Забронировать место <i
+								 class="fa fa-send ml-1"></i></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- feedback -->
+	<div class="feedback waves-effect waves-light d-flex justify-content-center align-items-center" data-toggle="modal"
+	 data-target="#feedback">
+		<a><i class="fa fa-envelope mr-1"></i> Обратная связь</a>
+	</div>
+	<div class="modal fade" id="feedback" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header d-block pb-0">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Обратная связь</h4>
+				</div>
+				<div class="modal-body pt-0">
+					<form>
+						<div class="md-form form-sm">
+							<i class="fa fa-user-circle-o prefix"></i>
+							<input id="forms_name" class="form-control" type="text" name="name" required>
+							<label for="forms_name" data-error="wrong">Ваше имя</label>
+						</div>
+						<div class="md-form form-sm">
+							<i class="fa fa-envelope prefix"></i>
+							<input id="forms_email" class="form-control" type="text" name="email" required>
+							<label for="forms_email">Ваш e-mail</label>
+						</div>
+						<div class="md-form form-sm">
+							<i class="fa fa-phone prefix"></i>
+							<input id="forms_phon" class="form-control" type="text" name="phone">
+							<label for="forms_phon">Ваш телефон</label>
+						</div>
+						<div class="md-form form-sm">
+							<i class="fa fa-pencil prefix"></i>
+							<textarea id="forms_message" class="md-textarea mb-0" name="message" style="height: 30px;"></textarea>
+							<label for="forms_message">Ваше сообщение</label>
+						</div>
+
+						<button type="submit" class="btn btn-rounded btn-info waves-effect waves-light" style="margin: 0 auto 15px; display: block;">Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- call-back -->
+	<a class="popup__toggle" data-toggle="modal" data-target="#call_back">
+		<div class="circlephone" style="transform-origin: center;">
+		</div>
+		<div class="circle-fill" style="transform-origin: center;"></div>
+		<div class="img-circle" style="transform-origin: center;">
+			<div class="img-circleblock" style="transform-origin: center;">
+			</div>
+		</div>
+	</a>
+	<div class="modal fade" id="call_back" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog text-center">
+			<div class="modal-content">
+				<div class="modal-header d-block">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Call-back</h4>
+					<p>Наш менеджер свяжется с вами в кратчайшие сроки и предоставит исчерпывающую информацию</p>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Ваше имя" name="name" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Ваш телефон" name="phone" required>
+						</div>
+						<button type="submit" class="btn btn-rounded btn-info mb-2 waves-effect waves-light">Заказать</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Modal -->
+	<div class="modal fade" id="mapsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog mt-5">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Карта проезда</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.5537046274417!2d30.59792221517626!3d50.44941309532154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cff197bed071%3A0x6fcc941adef5a166!2z0LLRg9C70LjRhtGPINCE0LLQs9C10L3QsCDQodCy0LXRgNGB0YLRjtC60LAsIDExLCDQmtC40ZfQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1531562359151"
+					 frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="scroll">
+		<a class="scrollup"></a>
+	</div>
+	<script src='libs/modernizr/modernizr.js'></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mdb.min.js"></script>
+	<script src="libs/youtuber/youtuber.js"></script>
+	<script src="libs/Magnific-Popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/slick/slick.min.js"></script>
+	<script src='libs/scroll/scrollup.js'></script>
+	<script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.gallery-slide').slick({
+				centerMode: true,
+				centerPadding: '60px',
+				slidesToShow: 4,
+				prevArrow: '<span class="slick-prev sl-pn"><i class="fa fa-angle-right" aria-hidden="true"></i></span>',
+				nextArrow: '<span class="slick-next sl-pn"><i class="fa fa-angle-left" aria-hidden="true"></i></span>',
+				responsive: [
+					{
+						breakpoint: 991,
+						settings: {
+							centerMode: true,
+							centerPadding: '60px',
+							slidesToShow: 3
+						}
+					},
+					{
+						breakpoint: 767,
+						settings: {
+							centerMode: true,
+							centerPadding: '60px',
+							slidesToShow: 2
+						}
+					},
+					{
+						breakpoint: 480,
+						settings: {
+							arrows: false,
+							centerMode: true,
+							centerPadding: '40px',
+							slidesToShow: 1
+						}
+					}
+				]
+			});
+		});
+	</script>
+</body>
+
+</html>
