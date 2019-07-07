@@ -1,0 +1,89 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1199px) {
+    section.prices .card-prices .btn {font-size: 13px;}
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 991px) {
+	.translit {width: 117px;}
+	header .header_left h1 {font-size: 32px;}
+    header .header_right .title_form h4 {font-size: 17px;}
+    section.block-text img {display: none;}
+    section.prices ul {margin-top: 15px;}
+    section.enroll_camp .program_form,
+    section.program-lager .program-lager-text {margin-bottom: 25px;}
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+	header .header_left h1,
+	header .header_left p {text-align: center; width: 100%;}
+    footer .wrap_widget,
+    footer .footer_bottom .ws {float: none;}
+}
+
+@media only screen and (max-width: 575px) {
+    .top_menu .top_menu_left a.btn-social {display: none;}
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .top_menu .top_menu_left a.btn-social {margin-right: 12px;}
+	.top_menu .top_menu_left .btn {padding: .3rem .5rem;}
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 360px) {
+    .top_menu .top_menu_left .btn {letter-spacing: inherit;}
+    header .header_left h1 {font-size: 28px;}
+	header .header_left p {font-size: 15px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
+
+
+@media only screen and (min-width: 1600px) {
+
+}
